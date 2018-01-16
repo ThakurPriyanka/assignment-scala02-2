@@ -13,15 +13,15 @@ object Application {
                      val result =  personObject.play()
                       if( result == 0)
                       {
-                        print("Winner")
+                        print("Gamer Response : Winner")
                       }
                       else {
-                        print("Looser")
+                        print("Gamer Response : Looser")
                       }
                 }
       case "trainer" => {
         val personObject = new Trainer
-       print( s"Attendence: ${personObject.getAttendence()}")
+       print( s"Trainer Response : ${personObject.getAttendence()}")
       }
       }
 
